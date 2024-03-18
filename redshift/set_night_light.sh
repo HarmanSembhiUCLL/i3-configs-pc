@@ -2,7 +2,7 @@
 
 day_temp=6500
 night_temp=3300
-mid_temp=$(( (day_temp + night_temp) / 2 ))
+mid_temp=$(( (6500 + 3300) / 2 ))
 
-redshift -O $mid_temp
+redshift
 
